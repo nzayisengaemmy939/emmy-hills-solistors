@@ -1,0 +1,807 @@
+@import url('https://fonts.cdnfonts.com/css/aquire');
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Define CSS variables */
+:root {
+    --home-color: #03c;
+    --word-color: #03c;
+}
+
+/* Body styles */
+body {
+    background-color: #edf1fd;
+    ;
+}
+
+/* Section styles */
+#section1 {
+    background-color: var(--home-color);
+    height: 100vh;
+    width: 100%;
+}
+
+.main {
+
+    margin-left: 150px;
+    margin-right: 150px;
+    /* border: 1px solid red; */
+}
+
+/* Navbar styles */
+.navbar {
+    width: 100%;
+    background-image: url('images/bg.png');
+    background-repeat: no-repeat;
+    background-size: 1440px 600px;
+    background-position: center;
+    height: 100vh;
+    /* border: 1px solid red; */
+}
+
+
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* Styles for the unordered list */
+.nav-menu .right ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Styles for list items */
+.nav-menu .right ul li {
+    margin-left: 40px;
+    color: white;
+    font-size: 20px;
+    font-family: Teko, sans-serif;
+}
+
+hr {
+    background-color: white;
+    height: 3px;
+    margin-top: 10px;
+}
+
+.welcome {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.welcome h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Aquire', sans-serif;
+    padding-top: 20px;
+}
+
+.welcome button {
+    width: 300px;
+    height: 50px;
+}
+
+.left img {
+    width: 130px;
+    height: 100px;
+}
+
+.downimg {
+    width: 100%;
+    /* border: 1px solid; */
+}
+
+.downimg img {
+    width: 100%;
+}
+
+/* about us section  */
+.about-us-section {
+    background-color: #edf1fd;
+    height: 100vh;
+    text-align: center;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.about-us-main {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+}
+
+.about-us-section hr {
+    height: 70vh;
+}
+
+.about-us-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.about-card {
+    /* height: 30vh; */
+    width: 48%;
+    background-color: white;
+    /* border: 1px solid; */
+    box-shadow: 1px 2px 2px 2px #03c;
+    color: #03c;
+    padding: 5px;
+    /* text-align: left; */
+    font-family: "Open Sans", sans-serif;
+    border-radius: 10px;
+}
+
+.myhr {
+    height: 0px;
+    width: 50px;
+    background-color: #03c;
+}
+
+.heading {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    margin: auto;
+}
+
+/*  */
+
+.team-section {
+    height: 100vh;
+    margin-top: 50px;
+    background-color: #edf1fd;
+    /* border: 1px solid; */
+}
+
+.team-main {
+    margin-left: 150px;
+    margin-right: 150px;
+    /* border: 1px solid; */
+}
+
+.team-cards {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.team-card {
+    height: 40vh;
+    background: #03c;
+    width: 48%;
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-around;
+    background-image: url('images/teamcard.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.animated-element {
+    /* Initial state for animation */
+    opacity: 0;
+    transform: translateY(05%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.animated-element.in-view {
+    opacity: 1;
+    transform: translateY(0);
+    animation: slide-up 1s forwards;
+}
+
+@keyframes slide-up {
+    from {
+        opacity: 0;
+        transform: translateY(10%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.team-card img {
+    width: 35%;
+    height: 40vh;
+}
+
+.team-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 170px;
+    color: white;
+    /* border: 1px solid white; */
+}
+
+/* sponsors section  */
+
+.sponsors-section {
+    text-align: center;
+    font-family: "Times New Roman";
+    margin-left: 150px;
+    margin-right: 150px;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    height: auto;
+}
+
+marquee {
+    display: flex;
+    /* border: 1px solid; */
+    margin-bottom: 30px;
+    background: white;
+}
+
+
+.section3 {
+    background-color: #edf1fd;
+    height: 100vh;
+    text-align: center;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+/* .staff{
+    height: 100vh;
+    margin-top: 0;
+} */
+.section3 .main {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+
+
+.main .staff-card {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    min-height: 70vh;
+    margin-bottom: 30px;
+
+}
+
+.main .card {
+    height: auto;
+    width: 280px;
+    background-color: white;
+    /* border: 2px solid white; */
+    animation-name: animate;
+    animation-duration: width 2s height 2s;
+    /* border: 2px solid black; */
+}
+.img-card img {
+    width: 70%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.card .card-detail {
+    width: 100%;
+    height: 15%;
+    /* border: 2px solid red; */
+    margin-top: 15px;
+}
+
+.card-detail h1 {
+    text-align: left;
+    padding: 5px;
+    font-size: 20px;
+    color: #03c;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main .wrapper {
+    width: 100%;
+    height: 15%;
+    /* border: 2px solid red; */
+    margin-top: 15px;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #03c;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 3px 0 0 3px;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.prev {
+    left: 0;
+    border-radius: 0px 3px 3px 0px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: #03c;
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.activeslide,
+.dot:hover {
+    background-color: #FEA609;
+}
+
+/* Fading animation */
+.fade {
+    display: flex;
+    justify-content: space-around;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+.accordion h2 {
+    font-family: "Open Sans", sans-serif;
+    color: #03c;
+    padding: 4px;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.accordion .question p {
+    color: #03c;
+    padding-left: 10px;
+    padding-top: 5px;
+    text-align: left;
+    position: relative;
+
+}
+
+.accordion .question::after {
+    content: "+";
+
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+    left: 90px;
+}
+
+/* Adjusted styling */
+.accordion .answer {
+    color: #03c;
+    padding-left: 10px;
+    padding-top: 5px;
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s;
+    /* Change transition to handle height */
+}
+
+.content-container {
+    background-color: #dae2fb;
+}
+
+.accordion .content-container.active .answer {
+    height: auto;
+    /* Display the answer when active */
+    padding-top: 5px;
+    /* Adjust padding to reveal content */
+}
+
+.accordion .question::after {
+    content: "+";
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+    left: 90px;
+}
+
+.accordion .content-container.active .question::after {
+    content: "-";
+    /* Change content when active */
+    font-size: 20px;
+}
+
+
+/* about section 5 */
+
+.section5 {
+    background-color: #edf1fd;
+    height: 100vh;
+    text-align: center;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section5 .main {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+
+}
+
+.main .service {
+    /* border: 2px solid black; */
+    min-height: 80vh;
+    max-height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dae2fb;
+    border-radius: 10px;
+}
+
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    justify-content: space-around;
+    height: 100%;
+    /* margin-top: 5px; */
+}
+
+.service-card {
+    background-color: white;
+    width: 45%;
+    min-height: 100%;
+    max-height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.service-card div {
+    border: 2px solid black;
+    width: 70px;
+    height: 30px;
+}
+
+
+
+/* .service .bottom-card{
+    width: 100%;
+    height: 45%;
+    background-color: #dae2fb;
+    margin-top: 5px; 
+}*/
+.service h1 {
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 20px;
+    color: #03c;
+}
+
+.service h2 {
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: 20px;
+    color: #03c;
+}
+
+.service button {
+
+    width: 120px;
+    height: 35px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #03c;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    border: none;
+    /* box-shadow: 2px 2px 4px 4px blue; */
+
+
+}
+.contact-section {
+    background-color: #03c;
+    /* margin-left: 150px;
+    margin-right: 150px; */
+    height: 90vh;
+}
+
+.contact-main {
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #03c;
+    text-align: center;
+    height: 10vh;
+}
+
+/* about sectionn6 */
+.section6 {
+    background-color: #edf1fd;
+    min-height: 100vh;
+    max-height: auto;
+    text-align: center;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+.section6 .main {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+
+/*
+accordion 1 */
+.question-wrapper {
+    min-height: 90vh;
+    max-width: auto;
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    margin-bottom: 20px;
+
+    /* border: 1px solid brown; */
+
+}
+
+.question-container {
+    min-height: 10vh;
+    max-height: auto;
+    /* border: 2px solid black; */
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    /* border: 1px solid; */
+    background-color: #dae2fb;
+
+}
+
+.content-container2 {
+
+    height: 100%;
+    width: 100%;
+}
+
+.question1 {
+    min-height: 45%;
+    max-height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    min-width: 100%;
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* border: 2px solid black;
+   */
+
+
+}
+
+.answer1 {
+    min-height: 45%;
+    max-height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    /* border: 2px solid black; */
+    width: 100%;
+    padding-right: 50px;
+}
+
+.accordion1 p {
+    text-align: right;
+    text-align: justify;
+    color: black;
+    /* border: 1px solid; */
+
+}
+
+.accordion1 .question1::after {
+    content: "+";
+
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    margin-left: 130px;
+    /* border: 1px solid; */
+}
+
+/* Adjusted styling */
+.accordion1 .answer1 {
+    padding-left: 10px;
+    padding-top: 5px;
+    height: 0px;
+    overflow: hidden;
+    transition: height 0s;
+    /* Change transition to handle height */
+}
+
+.content-container2.active {
+    height: auto;
+}
+
+.accordion1 .content-container2.active .answer1 {
+    height: auto;
+    /* Display the answer when active */
+    padding-top: 5px;
+    /* Adjust padding to reveal content */
+}
+
+.accordion1 .question1::after {
+    background-image: url('images/downarrow.png');
+    background-size: 20px 20px;
+    /* Set the width and height of the image */
+    background-repeat: no-repeat;
+    font-weight: 900;
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+    left: 400px;
+    display: inline-block;
+    /* Ensure that the pseudo-element has a size */
+    width: 20px;
+    /* Width of the pseudo-element */
+    height: 20px;
+    /* Height of the pseudo-element */
+    content: "";
+    background-color: white;
+    border-radius: 50px;
+}
+
+.accordion1 .content-container2.active .question1::after {
+    background-image: none;
+    /* Remove background image when active */
+    content: "^";
+    /* Change content when active */
+    width: 20px;
+    /* Width of the pseudo-element */
+    height: 20px;
+    background-color: white;
+    border-radius: 50px;
+}
