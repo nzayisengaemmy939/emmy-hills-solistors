@@ -8,8 +8,8 @@
 
 /* Define CSS variables */
 :root {
-    --home-color: #03c;
-    --word-color: #03c;
+    --home-color: #00171F;
+    --word-color: #00171F;
 }
 
 /* Body styles */
@@ -147,8 +147,8 @@ hr {
     width: 48%;
     background-color: white;
     /* border: 1px solid; */
-    box-shadow: 1px 2px 2px 2px #03c;
-    color: #03c;
+    box-shadow: 1px 2px 2px 2px #00171F;
+    color: #00171F;
     padding: 5px;
     /* text-align: left; */
     font-family: "Open Sans", sans-serif;
@@ -158,7 +158,7 @@ hr {
 .myhr {
     height: 0px;
     width: 50px;
-    background-color: #03c;
+    background-color: #00171F;
 }
 
 .heading {
@@ -194,7 +194,7 @@ hr {
 
 .team-card {
     height: 40vh;
-    background: #03c;
+    background: #00171F;
     width: 48%;
     display: flex;
 
@@ -333,7 +333,7 @@ marquee {
     text-align: left;
     padding: 5px;
     font-size: 20px;
-    color: #03c;
+    color: #00171F;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -368,7 +368,7 @@ img {
     width: auto;
     padding: 16px;
     margin-top: -22px;
-    color: #03c;
+    color: #00171F;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -390,7 +390,7 @@ img {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-    background-color: #03c;
+    background-color: #00171F;
 }
 
 /* Caption text */
@@ -459,7 +459,7 @@ img {
 }
 .accordion h2 {
     font-family: "Open Sans", sans-serif;
-    color: #03c;
+    color: #00171F;
     padding: 4px;
     font-size: 15px;
     text-align: left;
@@ -467,7 +467,7 @@ img {
 }
 
 .accordion .question p {
-    color: #03c;
+    color: #00171F;
     padding-left: 10px;
     padding-top: 5px;
     text-align: left;
@@ -486,7 +486,7 @@ img {
 
 /* Adjusted styling */
 .accordion .answer {
-    color: #03c;
+    color: #00171F;
     padding-left: 10px;
     padding-top: 5px;
     height: 0px;
@@ -593,7 +593,7 @@ img {
     padding-left: 10px;
     font-size: 20px;
     font-family: 20px;
-    color: #03c;
+    color: #00171F;
 }
 
 .service h2 {
@@ -602,7 +602,7 @@ img {
     padding-left: 10px;
     font-size: 15px;
     font-family: 20px;
-    color: #03c;
+    color: #00171F;
 }
 
 .service button {
@@ -612,7 +612,7 @@ img {
     margin-left: 200px;
     margin-bottom: 10px;
     padding: 5px;
-    background-color: #03c;
+    background-color: #00171F;
     border-radius: 5px;
     color: white;
     outline: none;
@@ -622,7 +622,7 @@ img {
 
 }
 .contact-section {
-    background-color: #03c;
+    background-color: #00171F;
     /* margin-left: 150px;
     margin-right: 150px; */
     height: 90vh;
@@ -638,7 +638,7 @@ img {
 }
 
 footer {
-    background-color: #03c;
+    background-color: #00171F;
     text-align: center;
     height: 10vh;
 }
