@@ -17,12 +17,27 @@ body {
     background-color: #edf1fd;
     ;
 }
-
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #00171F;
+    z-index: 1;
+    background-image: url('images/bg.png');
+    height: 10vh;
+}
+.sticky img,hr{
+    display: none;
+}
+.sticky .right{
+    margin-top: 08px;
+}
 /* Section styles */
 #section1 {
     background-color: var(--home-color);
     height: 100vh;
     width: 100%;
+    
 }
 
 .main {
@@ -50,6 +65,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 150px;
+    margin-left: 150px;
 
 }
 
@@ -99,17 +116,19 @@ hr {
 }
 
 .left img {
-    width: 130px;
-    height: 100px;
+    width: 100px;
+    height: 80px;
 }
 
 .downimg {
     width: 100%;
+    margin-top: -50px;
     /* border: 1px solid; */
 }
 
 .downimg img {
     width: 100%;
+    
 }
 
 /* about us section  */
@@ -118,6 +137,7 @@ hr {
     height: 100vh;
     text-align: center;
     margin-top: -10px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -174,7 +194,9 @@ hr {
     align-items: first baseline;
     margin: auto;
 }
-
+.heading hr{
+    display: block;
+}
 /*  */
 
 .team-section {
@@ -629,8 +651,15 @@ img {
 }
 .contact-section {
     background-color: #00171F;
+    background-image: url('images/bg.png');
+    background-repeat: no-repeat;
+    background-size: 1440px 600px;
+    background-position: center;
     /* margin-left: 150px;
     margin-right: 150px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 90vh;
 }
 
@@ -638,13 +667,14 @@ img {
     margin-left: 150px;
     margin-right: 150px;
     display: flex;
+    color: white;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
 
 footer {
-    background-color: #00171F;
+    color: white;
     text-align: center;
     height: 10vh;
 }

@@ -34,24 +34,26 @@
   <body>
     <div id="section1">
       <div class="navbar">
-        <div class="main">
-          <div class="nav-menu">
-            <nav>
-              <div class="left">
-                <img src="images/finalwhite.png" />
-              </div>
-              <div class="right">
-                <ul>
-                  <li><a>Home</a></li>
-                  <li><a>Services</a></li>
-                  <li><a>Contacts</a></li>
-                  <li><a>Consultance</a></li>
-                  <li><a>Submit Case</a></li>
-                </ul>
-              </div>
-            </nav>
-          </div>
+        <div class="nav-menu" id="nav-menu">
+          <nav>
+            <div class="left">
+              <img src="images/finalwhite.png" />
+            </div>
+            <div class="right">
+              <ul>
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Contacts</a></li>
+                <li><a>Consultance</a></li>
+                <li><a>Submit Case</a></li>
+              </ul>
+            </div>
+          </nav>
           <hr />
+        </div>
+        <div class="main">
+          
+          
           <div class="welcome">
             <h1>1000 Hills Solicitors</h1>
             <h2>
@@ -64,11 +66,13 @@
           </div>
         </div>
 
-        <div class="downimg">
+        
+      </div>
+      <div class="downimg">
           <img src="images/down.png" alt="" />
         </div>
-      </div>
     </div>
+  
     <!-- About us section -->
     <div class="about-us-section">
       <div class="about-us-main animated-element">
@@ -80,7 +84,7 @@
         <br />
         <div class="about-us-cards">
           <div class="about-us-left about-card">
-            <h2>About Us</h2>
+            <h4>About Us</h4>
 
             <p>
               1000 Hills Solicitors focuses exclusively on civil, criminal cases
@@ -90,7 +94,7 @@
               effective at resolving disputes in court when the other side is
               being unreasonable.
             </p>
-            <h2>Founders</h2>
+            <h4>Founders</h4>
             <p>
               1000 Hills Solicitors traces its roots to 2024, the founders,
               started practicing law and IT engineering in the different
@@ -104,7 +108,7 @@
           </div>
           <hr />
           <div class="about-us-right about-card">
-            <h2>Our Story</h2>
+            <h4>Our Story</h4>
             <p>
               Earlier this year, when COVID-19 ushered in a new remote
               normal law firms around the country were quick to adjust to their
@@ -613,11 +617,12 @@
         <br />
         <h2>hillssolicitors1000@gmail.com | 0787299001/0729981083</h2>
       </div>
+      <footer>
+      <h3>Copyright ©2024 1000 Hills Solicitors</h3>
+      </footer>
     </div>
     <!-- end Contacts -->
-    <footer>
-      <h3>Copyright ©2024 1000 Hills Solicitors</h3>
-    </footer>
+    
   </body>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -651,6 +656,24 @@
       // Check on scroll
       window.addEventListener("scroll", checkInView);
     });
+  </script>
+   <script>
+    // fixing header
+    window.onscroll = function () {
+      myFunction();
+    };
+
+    var header = document.getElementById("nav-menu");
+    var navbar = document.getElementById("mobilemenu");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
   </script>
 </html>
 <script>
