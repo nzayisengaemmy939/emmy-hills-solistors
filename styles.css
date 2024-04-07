@@ -26,7 +26,10 @@ body {
     background-image: url('images/bg.png');
     height: 10vh;
 }
-.sticky img,hr{
+.sticky img{
+    display: none;
+}
+.sticky hr{
     display: none;
 }
 .sticky .right{
