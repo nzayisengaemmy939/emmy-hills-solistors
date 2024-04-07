@@ -137,6 +137,7 @@ hr {
     height: 100vh;
     text-align: center;
     margin-top: -10px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -160,7 +161,13 @@ hr {
     justify-content: center;
     justify-content: space-between;
 }
-
+.about-us-cards  h2{
+    padding-top: 10px;
+}
+.about-us-cards p{
+    text-align: justify;
+    padding: 15px;
+}
 .about-card {
     /* height: 30vh; */
     width: 48%;
