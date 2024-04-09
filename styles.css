@@ -844,3 +844,150 @@ accordion 1 */
     background-color: white;
     border-radius: 50px;
 }
+
+
+/* about login and signup */
+.login-container{
+    width: 100%;
+    height: 100vh;
+
+    background-color: #00171F;
+   
+   
+}
+.wrapper-all{
+    background-image: url('images/bg.png');
+    width: 100%;
+    height: 100%;
+    /* border: 3px solid red; */
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+.wrapper-all img{
+    width: 150px;
+    height: 120px;
+}
+
+.logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+}
+.login-container .logo img{
+    width: 150px;
+    height: 120px;
+    margin: auto;
+}
+.login-detail{
+    height: 70vh;
+    width: 35%;
+    border: 1px solid;
+    background-color:#dae2fb;
+}
+.input-field{
+    width: 80%;
+    height: 40px;
+    /* border: 1px solid; */
+    margin: auto;
+    background-color: white;
+    margin-top: 30px;
+    
+}
+
+.input-field input{
+    width: 80%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+.buttons{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.buttons button{
+    width: 100%;
+    border: none;
+    outline: none;
+    color: white;
+    margin-bottom: 10px;
+}
+.buttons button a{
+    text-decoration: none;
+    color: white;
+}
+.submit-button{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    background-color:#00171F;
+    margin-top: 30px;
+}
+.submit-button p{
+    color: #03c;
+    text-align: center;
+}
+.login-detail p{
+    text-align: center;
+    padding-top: 20px;
+}
+.login-detail p a{
+    text-decoration: none;
+}
+.signup-container{
+    width: 100%;
+    background-image: url('images/bg.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00171F; 
+}
+
+.signup-detail{
+    height: auto;
+    width: 35%;
+    /* border: 1px solid yellow; */
+    background-color:#dae2fb;
+    margin-bottom: 10px;
+}
+.signup-detail h1{
+    text-align: center;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+}
+.signup-submit{
+    display: flex;
+    width: 80%;
+    height: 10%;
+    border: 1px solid;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+}
+/* about srvice */
+.service-page{
+    min-width: auto;
+    width: 100%;
+    height: auto;
+}
+.service-page .all-service{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #00171F;
+    background-image: url("images/bg.png");
+    background-position: center;
+
+    border: 1px solid black;
+    margin-top: -1px;
+}
