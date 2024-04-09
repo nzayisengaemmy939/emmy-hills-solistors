@@ -17,6 +17,7 @@ body {
     background-color: #edf1fd;
     ;
 }
+
 .sticky {
     position: fixed;
     top: 0;
@@ -26,21 +27,25 @@ body {
     background-image: url('images/bg.png');
     height: 10vh;
 }
-.sticky img{
+
+.sticky img {
     display: none;
 }
-.sticky hr{
+
+.sticky hr {
     display: none;
 }
-.sticky .right{
+
+.sticky .right {
     margin-top: 08px;
 }
+
 /* Section styles */
 #section1 {
     background-color: var(--home-color);
     height: 100vh;
     width: 100%;
-    
+
 }
 
 .main {
@@ -131,7 +136,7 @@ hr {
 
 .downimg img {
     width: 100%;
-    
+
 }
 
 /* about us section  */
@@ -164,13 +169,16 @@ hr {
     justify-content: center;
     justify-content: space-between;
 }
-.about-us-cards  h2{
+
+.about-us-cards h2 {
     padding-top: 10px;
 }
-.about-us-cards p{
+
+.about-us-cards p {
     text-align: justify;
     padding: 15px;
 }
+
 .about-card {
     /* height: 30vh; */
     width: 48%;
@@ -197,9 +205,11 @@ hr {
     align-items: first baseline;
     margin: auto;
 }
-.heading hr{
+
+.heading hr {
     display: block;
 }
+
 /*  */
 
 .team-section {
@@ -344,6 +354,7 @@ marquee {
     animation-duration: width 2s height 2s;
     /* border: 2px solid black; */
 }
+
 .img-card img {
     width: 70%;
     height: 200px;
@@ -488,6 +499,7 @@ img {
         font-size: 11px
     }
 }
+
 .accordion h2 {
     font-family: "Open Sans", sans-serif;
     color: #00171F;
@@ -652,6 +664,7 @@ img {
 
 
 }
+
 .contact-section {
     background-color: #00171F;
     background-image: url('images/bg.png');
@@ -675,23 +688,29 @@ img {
     align-items: center;
     justify-content: space-around;
 }
-.contact-details-contact{
+
+.contact-details-contact {
     display: flex;
     gap: 10px;
     text-align: center;
 }
-.contact-details{
+
+.contact-details {
     display: flex;
     gap: 10px;
 }
-.contact-details-message input,button{
+
+.contact-details-message input,
+button {
     height: 30px;
     width: 100%;
 }
-.hr{
+
+.hr {
     display: flex;
     align-items: center;
 }
+
 footer {
     color: white;
     text-align: center;
@@ -863,15 +882,16 @@ accordion 1 */
 
 
 /* about login and signup */
-.login-container{
+.login-container {
     width: 100%;
     height: 100vh;
 
     background-color: #00171F;
-   
-   
+
+
 }
-.wrapper-all{
+
+.wrapper-all {
     background-image: url('images/bg.png');
     width: 100%;
     height: 100%;
@@ -882,106 +902,122 @@ accordion 1 */
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-  
+
 }
-.wrapper-all img{
+
+.wrapper-all img {
     width: 150px;
     height: 120px;
 }
 
-.logo{
+.logo {
     display: flex;
     color: white;
     align-items: center;
     width: fit-content;
     height: fit-content;
 }
-.login-container .logo img{
+
+.login-container .logo img {
     width: 150px;
     height: 120px;
     margin: auto;
 }
-.login-detail{
+
+.login-detail {
     height: 70vh;
     width: 35%;
     border: 1px solid;
-    background-color:#dae2fb;
+    background-color: #dae2fb;
 }
-.input-field{
+
+.input-field {
     width: 80%;
     height: 40px;
     /* border: 1px solid; */
     margin: auto;
     background-color: white;
     margin-top: 30px;
-    
+
 }
 
-.input-field input{
+.input-field input {
     width: 80%;
     height: 100%;
     border: none;
     outline: none;
 }
-.buttons{
+
+.buttons {
     width: 80%;
     height: 100%;
     margin: auto;
 }
-.buttons button{
+
+.buttons button {
     width: 100%;
     border: none;
     outline: none;
     color: white;
     margin-bottom: 10px;
 }
-.buttons button a{
+
+.buttons button a {
     text-decoration: none;
     color: white;
 }
-.submit-button{
+
+.submit-button {
     width: 80%;
     height: 50px;
     margin: auto;
-    background-color:#00171F;
+    background-color: #00171F;
     margin-top: 30px;
 }
-.submit-button p{
+
+.submit-button p {
     color: #03c;
     text-align: center;
 }
-.login-detail p{
+
+.login-detail p {
     text-align: center;
     padding-top: 20px;
 }
-.login-detail p a{
+
+.login-detail p a {
     text-decoration: none;
 }
-.signup-container{
+
+.signup-container {
     width: 100%;
     background-image: url('images/bg.png');
     background-position: center;
+    background-attachment: fixed;
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #00171F; 
+    background-color: #00171F;
 }
 
-.signup-detail{
+.signup-detail {
     height: auto;
     width: 35%;
+    margin-top: 10px;
     /* border: 1px solid yellow; */
-    background-color:#dae2fb;
+    background-color: #dae2fb;
     margin-bottom: 10px;
 }
-.signup-detail h1{
+
+.signup-detail h1 {
     text-align: center;
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 10px;
 }
-.signup-submit{
+
+.signup-submit {
     display: flex;
     width: 80%;
     height: 10%;
@@ -989,15 +1025,17 @@ accordion 1 */
     justify-content: center;
     justify-content: space-evenly;
     margin-top: 20px;
-    
+
 }
+
 /* about srvice */
-.service-page{
+.service-page {
     min-width: auto;
     width: 100%;
     height: auto;
 }
-.service-page .all-service{
+
+.service-page .all-service {
     width: 100%;
     min-height: 100vh;
     background-color: #00171F;
