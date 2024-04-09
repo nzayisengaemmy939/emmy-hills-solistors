@@ -675,7 +675,23 @@ img {
     align-items: center;
     justify-content: space-around;
 }
-
+.contact-details-contact{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+.contact-details{
+    display: flex;
+    gap: 10px;
+}
+.contact-details-message input,button{
+    height: 30px;
+    width: 100%;
+}
+.hr{
+    display: flex;
+    align-items: center;
+}
 footer {
     color: white;
     text-align: center;
